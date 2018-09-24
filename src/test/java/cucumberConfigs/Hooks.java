@@ -48,10 +48,6 @@ public class Hooks {
 					FirefoxDriverManager.getInstance().version(version).setup();
 					driver = new FirefoxDriver();
 					break;
-				case "ie":
-					System.setProperty("webdriver.ie.driver", ".\\driver\\IEDriverServer.exe");
-					driver = new InternetExplorerDriver();
-					break;
 				default:
 					FirefoxDriverManager.getInstance().version(version).setup();
 					driver = new FirefoxDriver();
