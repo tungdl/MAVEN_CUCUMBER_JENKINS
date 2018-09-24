@@ -14,7 +14,7 @@ Feature: PAYMENT FEATURE
     Given I open "New Customer" page
     When I input to "name" textbox with data "<CustomerName>"
     And I click to "<Gender>" radio button
-    And I input to "dob" textbox with data "<DateOfBirth>"
+    And I input to birthday with data "<DateOfBirth>"
     And I input to "addr" text area with data "<Address>"
     And I input to "city" textbox with data "<City>"
     And I input to "state" textbox with data "<State>"

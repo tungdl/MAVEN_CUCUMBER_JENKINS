@@ -6,6 +6,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumberConfigs.Hooks;
+import interfaces.NewCustomerPageUI;
 import pageObjects.BankGuruFactoryPage;
 import pageObjects.NewCustomerPageAction;
 
@@ -46,4 +47,8 @@ public class NewCustomerSteps extends ShareData{
 		shareData.customerID = newCustomerPage.getCustomerID();
 	}
 
+	@When("^I input to birthday with data \"(.*?)\"$")
+	public void iInputDobBirthday(String value) {
+		newCustomerPage.enterBirthday(value);
+	}
 }

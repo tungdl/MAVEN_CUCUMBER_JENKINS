@@ -29,16 +29,10 @@ public class Hooks {
 				if (browser == null) {
 					browser = System.getenv("BROWSER");
 					if (browser == null) {
-						browser = "firefox";
+						browser = "chrome";
 					}
 				}
 				
-				if (version == null) {
-					version = System.getenv("VERSION");
-					if (version == null) {
-						version = "3.14.0";
-					}
-				}
 				switch (browser) {
 				case "chrome":
 					ChromeDriverManager.getInstance().version(version).setup();

@@ -25,7 +25,7 @@ public class NewCustomerPageAction extends AbstractPage {
 	}
 
 	public void enterBirthday(String value) {
-//		if (driver.toString().toLowerCase().contains("chrome"))
+		if (driver.toString().toLowerCase().contains("chrome"))
 			removeAttributeInDOM(driver, NewCustomerPageUI.TXB_BIRTHDAY, "type");
 		sendkeyToElement(driver, NewCustomerPageUI.TXB_BIRTHDAY, value);
 	}
