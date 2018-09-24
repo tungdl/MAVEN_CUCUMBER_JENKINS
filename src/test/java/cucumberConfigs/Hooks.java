@@ -25,7 +25,6 @@ public class Hooks {
 		
 		if (driver == null) {
 			try {
-				// Kiem tra BROWSER = null -> gan = chrome
 				if (browser == null) {
 					browser = System.getenv("BROWSER");
 					if (browser == null) {
