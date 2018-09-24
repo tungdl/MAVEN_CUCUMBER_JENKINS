@@ -1,0 +1,11 @@
+2018-09-24 13:55:05,267 INFO  pageObjects.HomePageAction - [PASSED] Welcome message is displayed
+2018-09-24 13:55:10,761 INFO  pageObjects.AbstractPageObject - [PASSED] Customer Registered Successfully!!! is displayed
+2018-09-24 13:55:11,090 INFO  pageObjects.AbstractPageObject - [PASSED] Auto Test is displayed
+2018-09-24 13:55:11,107 INFO  pageObjects.AbstractPageObject - [PASSED] 1989-10-10 is displayed
+2018-09-24 13:55:11,131 INFO  pageObjects.AbstractPageObject - [PASSED] 123 Address is displayed
+2018-09-24 13:55:11,149 INFO  pageObjects.AbstractPageObject - [PASSED] Binh Duong is displayed
+2018-09-24 13:55:11,174 INFO  pageObjects.AbstractPageObject - [PASSED] Thu Dau is displayed
+2018-09-24 13:55:11,190 INFO  pageObjects.AbstractPageObject - [PASSED] 123321 is displayed
+2018-09-24 13:55:16,130 INFO  pageObjects.AbstractPageObject - [PASSED] Account Generated Successfully!!! is displayed
+2018-09-24 13:55:20,040 INFO  pageObjects.AbstractPageObject - [PASSED] Account Generated Successfully!!! is displayed
+2018-09-24 13:55:24,335 INFO  pageObjects.DepositPageAction - [PASSED] Message 'Transaction details of Deposit for Account 49330' is displayed correctly

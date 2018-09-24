@@ -1,0 +1,990 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "[PRE-DATA] - REGISTER/ LOGIN",
+        "description": "",
+        "id": "payment-feature;[pre-data]---register/-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12126558514,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input to \"uid\" textbox with data \"mngr152935\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "uid",
+                  "offset": 12
+                },
+                {
+                  "val": "mngr152935",
+                  "offset": 36
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75352048,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input to \"password\" textbox with data \"heqamYg \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 12
+                },
+                {
+                  "val": "heqamYg ",
+                  "offset": 41
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220722049,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click to \"btnLogin\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btnLogin",
+                  "offset": 12
+                }
+              ],
+              "location": "AbstractPageSteps.clickToDynamicButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095187535,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify Homepage displayed with message \"Welcome To Manager\u0027s Page of Guru99 Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome To Manager\u0027s Page of Guru99 Bank",
+                  "offset": 42
+                }
+              ],
+              "location": "HomePageSteps.iVerifyHomepageDisplayedWithMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "[TC_01] - CREATE NEW CUSTOMER",
+        "description": "",
+        "id": "payment-feature;[tc-01]---create-new-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95745223,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open \"New Customer\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Customer",
+                  "offset": 8
+                }
+              ],
+              "location": "AbstractPageSteps.iOpenDynamicPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1768775522,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I input to \"name\" textbox with data \"Auto Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 12
+                },
+                {
+                  "val": "Auto Test",
+                  "offset": 37
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431182944,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click to \"m\" radio button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "m",
+                  "offset": 12
+                }
+              ],
+              "location": "AbstractPageSteps.iClickToRadioButton(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73187750,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I input to \"dob\" textbox with data \"1989-10-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dob",
+                  "offset": 12
+                },
+                {
+                  "val": "1989-10-10",
+                  "offset": 36
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73456966,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I input to \"addr\" text area with data \"123 Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addr",
+                  "offset": 12
+                },
+                {
+                  "val": "123 Address",
+                  "offset": 39
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextAreaWithData(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255132560,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I input to \"city\" textbox with data \"Binh Duong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "city",
+                  "offset": 12
+                },
+                {
+                  "val": "Binh Duong",
+                  "offset": 37
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67054317,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I input to \"state\" textbox with data \"Thu Dau\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "state",
+                  "offset": 12
+                },
+                {
+                  "val": "Thu Dau",
+                  "offset": 38
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60400576,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I input to \"pinno\" textbox with data \"123321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pinno",
+                  "offset": 12
+                },
+                {
+                  "val": "123321",
+                  "offset": 38
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398459845,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I input to \"telephoneno\" textbox with data \"0123456987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "telephoneno",
+                  "offset": 12
+                },
+                {
+                  "val": "0123456987",
+                  "offset": 44
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110627597,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I input to \"emailid\" textbox with random data \"automation@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "emailid",
+                  "offset": 12
+                },
+                {
+                  "val": "automation@gmail.com",
+                  "offset": 47
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithRandomData(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81535322,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I input to \"password\" textbox with data \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 12
+                },
+                {
+                  "val": "123456",
+                  "offset": 41
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1564190928,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click to \"sub\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sub",
+                  "offset": 12
+                }
+              ],
+              "location": "AbstractPageSteps.clickToDynamicButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460737002,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I get infor of Customer ID",
+            "match": {
+              "location": "NewCustomerSteps.iGetInforOfCustomerID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22678299,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify created successfully with message \"Customer Registered Successfully!!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Registered Successfully!!!",
+                  "offset": 42
+                }
+              ],
+              "location": "AbstractPageSteps.verifyCreatedOrEditedSuccessfullyWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 328832688,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I verify expected data at \"Customer Name\" text in table with actual data \"Auto Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Name",
+                  "offset": 27
+                },
+                {
+                  "val": "Auto Test",
+                  "offset": 74
+                }
+              ],
+              "location": "AbstractPageSteps.iVerifyExpectedDataAtTextInTableWithActualData(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16160487,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I verify expected data at \"Birthdate\" text in table with actual data \"1989-10-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Birthdate",
+                  "offset": 27
+                },
+                {
+                  "val": "1989-10-10",
+                  "offset": 70
+                }
+              ],
+              "location": "AbstractPageSteps.iVerifyExpectedDataAtTextInTableWithActualData(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22250122,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify expected data at \"Address\" text in table with actual data \"123 Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Address",
+                  "offset": 27
+                },
+                {
+                  "val": "123 Address",
+                  "offset": 68
+                }
+              ],
+              "location": "AbstractPageSteps.iVerifyExpectedDataAtTextInTableWithActualData(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17086694,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify expected data at \"City\" text in table with actual data \"Binh Duong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "City",
+                  "offset": 27
+                },
+                {
+                  "val": "Binh Duong",
+                  "offset": 65
+                }
+              ],
+              "location": "AbstractPageSteps.iVerifyExpectedDataAtTextInTableWithActualData(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24210524,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify expected data at \"State\" text in table with actual data \"Thu Dau\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "State",
+                  "offset": 27
+                },
+                {
+                  "val": "Thu Dau",
+                  "offset": 66
+                }
+              ],
+              "location": "AbstractPageSteps.iVerifyExpectedDataAtTextInTableWithActualData(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15151212,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I verify expected data at \"Pin\" text in table with actual data \"123321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pin",
+                  "offset": 27
+                },
+                {
+                  "val": "123321",
+                  "offset": 64
+                }
+              ],
+              "location": "AbstractPageSteps.iVerifyExpectedDataAtTextInTableWithActualData(String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@payment"
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "[TC_02] - CREATE 2 NEW ACCOUNTs",
+        "description": "",
+        "id": "payment-feature;[tc-02]---create-2-new-accounts;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1233034226,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I open \"New Account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Account",
+                  "offset": 8
+                }
+              ],
+              "location": "AbstractPageSteps.iOpenDynamicPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82921423,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I input to Customer ID",
+            "match": {
+              "location": "EditCustomerSteps.iInputToCustomerID()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 484010368,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I select value is \"Current\" in dropdown list \"selaccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Current",
+                  "offset": 19
+                },
+                {
+                  "val": "selaccount",
+                  "offset": 46
+                }
+              ],
+              "location": "AbstractPageSteps.iSelectValueIsInDropdownList(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 706196678,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I input to \"inideposit\" textbox with data \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inideposit",
+                  "offset": 12
+                },
+                {
+                  "val": "50000",
+                  "offset": 43
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2391604098,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click to \"button2\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "button2",
+                  "offset": 12
+                }
+              ],
+              "location": "AbstractPageSteps.clickToDynamicButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33281164,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Verify created successfully with message \"Account Generated Successfully!!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Generated Successfully!!!",
+                  "offset": 42
+                }
+              ],
+              "location": "AbstractPageSteps.verifyCreatedOrEditedSuccessfullyWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19370307,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I get infor of first account",
+            "match": {
+              "location": "NewAccountSteps.iGetInforOfFirstAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89870055,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I open \"New Account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Account",
+                  "offset": 8
+                }
+              ],
+              "location": "AbstractPageSteps.iOpenDynamicPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1437243127,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I input to Customer ID",
+            "match": {
+              "location": "EditCustomerSteps.iInputToCustomerID()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 433762203,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I select value is \"Current\" in dropdown list \"selaccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Current",
+                  "offset": 19
+                },
+                {
+                  "val": "selaccount",
+                  "offset": 46
+                }
+              ],
+              "location": "AbstractPageSteps.iSelectValueIsInDropdownList(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71074805,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I input to \"inideposit\" textbox with data \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inideposit",
+                  "offset": 12
+                },
+                {
+                  "val": "50000",
+                  "offset": 43
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1532829010,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click to \"button2\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "button2",
+                  "offset": 12
+                }
+              ],
+              "location": "AbstractPageSteps.clickToDynamicButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321229707,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Verify created successfully with message \"Account Generated Successfully!!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Generated Successfully!!!",
+                  "offset": 42
+                }
+              ],
+              "location": "AbstractPageSteps.verifyCreatedOrEditedSuccessfullyWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13238007,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I get infor of second account",
+            "match": {
+              "location": "NewAccountSteps.iGetInforOfFirstAccount()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@payment"
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "[TC_03] - DEPOSIT TO ACCOUNT",
+        "description": "",
+        "id": "payment-feature;[tc-03]---deposit-to-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1593307746,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I open \"Deposit\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deposit",
+                  "offset": 8
+                }
+              ],
+              "location": "AbstractPageSteps.iOpenDynamicPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58016149,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I input to first account number",
+            "match": {
+              "location": "DepositPageSteps.iInputToFirstAccountNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62173698,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I input to \"ammount\" textbox with data \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ammount",
+                  "offset": 12
+                },
+                {
+                  "val": "50000",
+                  "offset": 40
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65341985,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I input to \"desc\" textbox with data \"Deposit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "desc",
+                  "offset": 12
+                },
+                {
+                  "val": "Deposit",
+                  "offset": 37
+                }
+              ],
+              "location": "AbstractPageSteps.iInputToTextboxWithData(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2162636047,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click to \"AccSubmit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AccSubmit",
+                  "offset": 12
+                }
+              ],
+              "location": "AbstractPageSteps.clickToDynamicButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331065705,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Verify transfer successfully with message \"Transaction details of Deposit for Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Transaction details of Deposit for Account",
+                  "offset": 43
+                }
+              ],
+              "location": "DepositPageSteps.verifyTransactionSuccessMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@payment"
+          }
+        ]
+      }
+    ],
+    "name": "PAYMENT FEATURE",
+    "description": "As an Automation Tester\nI want to check payment process\nSo that I can make sure this function work well",
+    "id": "payment-feature",
+    "keyword": "Feature",
+    "uri": "PaymentFunction.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@payment"
+      }
+    ]
+  }
+]
